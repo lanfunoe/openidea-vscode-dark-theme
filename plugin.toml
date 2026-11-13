@@ -1,0 +1,13 @@
+id = "lanfunoe.dark-plus"
+name = "VSCode Theme"
+version = "0.1.0"
+description = "A VS Code-style dark theme"
+authors = ["lanfunoe"]
+license = "MIT"
+categories = ["themes"]
+icon = "icon.svg"
+engines.openidea = "^1.2"
+
+[[contributes.themes]]
+path = "themes/dark-plus.theme.json"
+editor-scheme = "themes/dark-plus.scheme.json"
